@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Notebooks and saved outputs
+*.ipynb
+*.out
+
+# Private HPC data
+*.csv
+*.tsv
+*.gz
+provisional_exclusions.txt
+data/
+outputs/
+
+# Local configuration and secrets
+.env
+*.key
